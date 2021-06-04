@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HomeAccounting.BusinessLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
+    <ProjectReference Include="..\HomeAccounting.CompositionRoot\HomeAccounting.CompositionRoot.csproj" />
   </ItemGroup>
 
 </Project>

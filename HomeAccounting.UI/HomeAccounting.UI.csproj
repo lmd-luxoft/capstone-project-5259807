@@ -9,4 +9,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HomeAccounting.BusinessLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
+    <ProjectReference Include="..\HomeAccounting.CompositionRoot\HomeAccounting.CompositionRoot.csproj" />
+  </ItemGroup>
+
 </Project>

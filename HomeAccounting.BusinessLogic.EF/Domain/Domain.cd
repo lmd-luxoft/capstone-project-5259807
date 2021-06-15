@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Entity">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Property">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\Property.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PropertyChange" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Account">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Cash">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Cash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Deposit">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAQAACAAAAAA=</HashCode>
+      <FileName>Domain\Deposit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Bank" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.PropertyChange">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\PropertyChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Operation">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Domain\Operation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Account" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Domain.Bank">
+    <Position X="5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Domain\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HomeAccounting.BusinessLogic.EF.Domain.PropertyType">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Domain\PropertyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HomeAccounting.BusinessLogic.EF.Domain.PercentType">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Domain\PercentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

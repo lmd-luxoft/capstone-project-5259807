@@ -24,7 +24,9 @@ namespace HomeAccounting.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
             AspNetApplicationBuilder app = new AspNetApplicationBuilder(services);
+            
             app.Build();
         }
 
